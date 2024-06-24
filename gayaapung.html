@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Gaya Apung</title>
+    <link rel="stylesheet" href="styles gaya apung.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Gaya Apung</h1>
+        <form id="buoyantForceForm">
+            <label for="volume">Volume Objek (m<sup>3</sup>):</label>
+            <input type="number" id="volume" required>
+
+            <label for="density">Massa Jenis Cairan (kg/m<sup>3</sup>):</label>
+            <input type="number" id="density" required>
+
+            <label for="gravity">Percepatan Gravitasi (m/s<sup>2</sup>):</label>
+            <input type="number" id="gravity" value="9.807" required>
+
+            <button type="submit">Hitung Gaya Apung</button>
+        </form>
+        <div id="result"></div>
+        <a href="halaman utama.html">Kembali ke Beranda</a>
+    </div>
+    <script src="script gaya apung.js"></script>
+</body>
+</html>
