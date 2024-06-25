@@ -51,4 +51,16 @@ button:hover {
     margin-top: 20px;
     font-size: 1.2em;
 }
+
+a {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
     

@@ -9,12 +9,12 @@ body {
 }
 
 .container {
-    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff,  #46eefa, #5ffbf1);
 
-    padding: 20px;
+    padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
 }
 
 h1 {
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: black;
+    background-color: aqua;
 }
 
 #result {
@@ -70,5 +70,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: black;
+    color: aqua;
 }
