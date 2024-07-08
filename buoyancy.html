@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Gaya Apung</title>
+    <link rel="stylesheet" href="styles buoyancy.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buoyancy Force Calculator</h1>
+        <form id="buoyantForceForm">
+            <label for="volume">Object volume (m<sup>3</sup>):</label>
+            <input type="number" id="volume" required>
+
+            <label for="density">Density of Liquid (kg/m<sup>3</sup>):</label>
+            <input type="number" id="density" required>
+
+            <label for="gravity">Acceleration of gravity (m/s<sup>2</sup>):</label>
+            <input type="number" id="gravity" value="9.807" required>
+
+            <button type="submit">Calculate buoyancy force</button>
+        </form>
+        <div id="result"></div>
+        <button><a style="text-decoration:none" href="halaman utama.html">Back to Home</a>
+    </div>
+ 
+    <script src="script buoyancy.js"></script>
+</body>
+</html>

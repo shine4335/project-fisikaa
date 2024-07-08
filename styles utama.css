@@ -1,6 +1,15 @@
+body, html {
+    height: 100%;
+    background-image: url("cristian-palmer-XexawgzYOBc-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,18 +17,11 @@ body {
     margin: 0;
 }
 
-.container {
-    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff,  #46eefa, #5ffbf1);
-
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-}
-
 h1 {
     text-align: center;
+    font-size: 45px;
 }
+
 
 form {
     display: flex;
@@ -43,6 +45,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 button:hover {
@@ -61,6 +64,8 @@ nav ul {
 
 nav ul li {
     margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
 }
 
 nav ul li a {
@@ -72,3 +77,4 @@ nav ul li a {
 nav ul li a:hover {
     color: aqua;
 }
+
